@@ -1,0 +1,15 @@
+A01: Assignment
+* python install - execute simple print statement - snapshot
+* install notepad ++
+* python 2 vs python 3
+* Complete the Assignment code - A01 
+   - refer the file A01-Fundamentals_Of_Programming.xlsx
+   
+-------------
+
+A02: Assignment 
+1. Execute & practice below given py files,
+    * 01 Variables.py
+	* 02 Numbers.py
+	* 03 Strings.py	
+2. What is Garbage Collector ? Do we have garbage ccollection in python ? if yes - How it works?
