@@ -13,3 +13,40 @@ A02: Assignment
 2. What is Garbage Collector ? Do we have garbage ccollection in python ? if yes - How it works?
 3. Understand all string inbuilt functions & update details in "A02.3 String_InbuiltFunctions.xlsx"
 -----------
+
+
+A03: Assignment
+
+1. write a python script 'turnOffComputer.py' to turn off my computer.
+2. Write a python script 'candidateInfo_v1.py' to collect below information from candidates
+   Note: use respective collections to store the data 
+   a. rollNum 
+   b. name - each candidate could have 'firstName', 'middleName', 'lastName' and all the names could be same as well
+   c. age - should be stored as integer
+   d. phoneNum - one candidate could have more than one numbers and should be unique numbers
+   e. address - candidate should have both 'personalAddress' & 'officialAddress'
+              - both address should have attributes 'state' & 'country'
+			 
+   Once data is collected from candidate from console, display it like below sample,
+    ********** Thanks for entering your Information Mr.<firstName> <middleName> <lastName> *********
+	Below are your details we stored,
+	{
+	  'rollNum' : 'R1',
+	  'name' : [<firstName>, <middleName>, <lastName>],
+	  'age' : 26,
+	  'phoneNum' : {<phnum1>,'phNum2'},
+	  'address' :
+	     {
+			'personalAddress' : 
+			   { 
+			     'state' : <state>,
+				 'country' : <country>
+			   },
+			'officialAddress' : 
+			   { 
+			     'state' : <state>,
+				 'country' : <country>
+			   }
+		 }
+    }
+    ***************************************************************************************************
