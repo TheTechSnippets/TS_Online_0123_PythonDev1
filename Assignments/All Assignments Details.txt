@@ -50,3 +50,37 @@ A03: Assignment
 		 }
     }
     ***************************************************************************************************
+    
+    
+3. Write a python script 'emailValidation_v1.py' to validate the given email id with below requirements,
+    a. get the input email id from user trough console prompting 'Enter your email ID: '
+	b. validate the email id with with below conditions,
+	    - the total length of email is greater than 8 & less than 20
+		      error message if not satisfied : 'Email id length should be greater than 8' / 'Email id length should be less than 20'
+		- should start with only alphabets [a-z]
+		      error message if not satisfied : 'Email id should start with alphabet
+		- should contain only one '@'  	
+		      error message if not satisfied : 'should contain only one '@''
+		- should contain atleast 2 characters before the symbol '@'
+		      error message if not satisfied : 'should contain atleast 2 characters before the symbol '@''
+        - - should contain only one '.'  	
+		      error message if not satisfied : 'should contain only one '.''			  
+		- should contain atleast 2 characters between the symbol '@' & '.'
+		      error message if not satisfied : 'should contain atleast 2 characters between the symbol '@' & '.'
+		- should contain atleast 3 characters after the symbol  '.'
+		      error message if not satisfied : should contain atleast 3 characters after the symbol  '.'
+			  
+    c. If above cconditions are satisfied , then display 'The entered email id : <emailId> is valid', else display 'The entered email id : <emailId> is invalid due to reasons : [<reason>]'
+
+4. Write a python script  "calculator_v1.py" to perform arithematic operations. user should be able to see the available operations as a.Add, b.Subtract, c. Divide,    d.Multiply & ask user to select the option. Also get two input numbers & perform the selected operation.
+
+5. Enhance 'turnOffComputer.py' to prompt use "Do you want to turn off 1.'Now' or 2.'Later'" . 
+If selected "Now" , shutdown immedeitly. 
+Else if selected option is "Later" , 
+  Prompt for "ExactTime" of "RelativeTime". 
+     If selected "ExactTime" - shutdown at exacted time mentioned.
+	 Else if selected "RelativeTime" -
+	 Prompt for how many minutes later ?
+      Then shut down after the specified minutes.
+	  
+-------------
