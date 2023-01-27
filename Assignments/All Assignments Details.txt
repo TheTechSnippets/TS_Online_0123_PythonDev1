@@ -82,5 +82,6 @@ Else if selected option is "Later" ,
 	 Else if selected "RelativeTime" -
 	 Prompt for how many minutes later ?
       Then shut down after the specified minutes.
-	  
+      
+  Note: use datetime & os packages	  
 -------------
