@@ -83,5 +83,33 @@ Else if selected option is "Later" ,
 	 Prompt for how many minutes later ?
       Then shut down after the specified minutes.
       
-  Note: use datetime & os packages	  
+  Note: use datetime & os packages
+  
 -------------
+
+A05: Assignment
+
+1. Write a python script print_even_numbers_v1.py to print all even numbers from 0 to 10.
+2. Write a python script count_5_divisible_numbers_v1.py to display how many 5 divisible numbers available from 1 to 100.
+3. Write a python script display_stars_v1.py to print * in lines based on given input n.
+   if n =2, create a structure as below  
+          *
+	 * *
+   if n =3, create a structure as below  
+          *
+	 * *
+	* * *
+   - n should be in range 1 to 5 , only. if not - print "N is beyond range - enter between 0 to 5"  
+4. Write a python script calculator_v2.py by enhancing the calculator_v1.py (done in Session 04 Assignment ,A04) with below new requirements 
+        a. after getting 2 inputs from user, check the first entered number should always be greater than 2nd entered number.
+	   if 1st num is not greater than 2nd , reassign and consider 2nd num as 1st and display to user 
+	   "YOUR ENTERED FIRST NUMBER IS SMALLER THAN 2ND NUMBER, SO CONSIDERING GREATEST NUM AS 1ST NUM TO DO THE OPERATION"
+	
+	b. once the selected operation is done and output is displayed, prompt the user to continue calculations,
+	   "Do you want to continue calculations ? Press 'Y' to continue, Press 'N' to stop "
+	    IF 'Y' - then continue the program from beginning, asking to enter numbers , IF 'N' -> end the program
+	    If any other key is pressed other than Y/N -> print "Invalid Selection. Bye..!" and end the program,
+5. Write a python script "name_alphabet_counts_v1.py" to display how many number of times each alphabet is present in your name
+   ex: if entered name = 'The TechSnippets", output should be, (case insensitive operation)
+       {A=0, B=0, C=1, D=0, E=3,F=0, G=0, H=1, I=1.........Z=0}
+	   
