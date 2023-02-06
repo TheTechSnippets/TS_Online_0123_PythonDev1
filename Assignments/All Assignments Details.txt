@@ -113,3 +113,10 @@ A05: Assignment
    ex: if entered name = 'The TechSnippets", output should be, (case insensitive operation)
        {A=0, B=0, C=1, D=0, E=3,F=0, G=0, H=1, I=1.........Z=0}
 	   
+-------------
+
+A06: Assignment
+
+1. Develop the game "rock, paper, scissor" using Python to play against the computer.
+
+-------------
