@@ -120,3 +120,18 @@ A06: Assignment
 1. Develop the game "rock, paper, scissor" using Python to play against the computer.
 
 -------------
+
+A07: Assignment
+
+1. Special variables:
+__name__
+__main__
+__doc__
+
+2. External variables (property file):send email & db operation assignment
+3. init
+4. unit test cases
+5. None Type
+
+-------------
+
